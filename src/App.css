@@ -1,0 +1,19 @@
+.gaming-img{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 150px;
+padding-left: 50px;
+}
+
+.individual-img{
+    margin-right: 100px;
+border: 10px solid transparent;
+padding: 5px;
+border-image: url(https://www.w3schools.com/css/border.png) 30 stretch;
+    
+}
+
+.game-name{
+    margin-left: 50px;
+}
