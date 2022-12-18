@@ -3,7 +3,7 @@ import "./App.css";
 import { useAuth0 } from '@auth0/auth0-react';
 import LoginButton from "./components/Login";
 import LogoutButton from "./components/Logout";
-import Profile from "./components/Profile";
+
 
 function App() {
   const { isAuthenticated } = useAuth0();
@@ -14,14 +14,14 @@ function App() {
 
    <nav className="navbar navbar-expand-lg navbar-dark bg-dark" >
       <div className="container-fluid">
-      <a className="navbar-brand" href="#">W-A-S-D</a>
+      <a className="navbar-brand" >W-A-S-D</a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
        </button>
        <div className="collapse navbar-collapse" id="navbarSupportedContent">
          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">Home</a>
+            <a className="nav-link active" aria-current="page">Home</a>
            </li>
            <li className="nav-item">
             <a className="nav-link active" aria-current="page" href="https://github.com/Yasshu55/W-A-S-D">Github</a>
