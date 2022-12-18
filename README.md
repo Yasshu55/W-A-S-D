@@ -1,71 +1,47 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# WASD - We Are Surely Developers! 🦈 
+## (A tribute to all the Blahaj fans out there!)
 
-## Available Scripts
+## 💡Inspiration :
 
-In the project directory, you can run:
+How tiring can your day get being a developer? Well it takes a humongous amount of time and committment levels to be able to handles all the bugs that come your way, resolve them and make the code work!
+ 
 
-### `npm start`
+Well, this weekend let's take time to support all the developers around the globe relieve stress and have some action packed fun by playing some cool games. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚓ What it does :
+Well, this project contains 3 different games that you can play and have fun this weekend!
+#### 1. Coffee with Blahaj. ☕
+Blahaj + Bugs? well a rare combination in the real world but not in the world of Developers. Grab a cup of coffee with Blahaj and escape bugs with us in this game.
+#### 2. Blahaj in the Maze. 👻
+Are you stuck in a cubicle where you endlessly code all day? Well even Blahaj is stuck in a maze, help it get out by finding the key!
+#### 3. Swimmy Blahaj. 💣
+Do you get called in the middle of the night for last moment code fixes? As if a bomb dropped over your head? Well help Blahaj stay away from such bombs and keep flapping.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+ ## 🛠️ How we built it :
+We built a simple landing page using HTML, CSS, Javascript and React. We made a basic game first and built on it by adding two more games.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+We primarily used the Kaboom js which is a javascript game programming library and Replit for asset loading to build the games.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💪Challenges we ran into :
+Well, we ran into multiple issues while building this project, a few of them are:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    - Not being able to understand bundlers inorder combine multiple js files.
+    - Not being able to figure out how to render the games Replit.
+    - Difficulty in integrating Auth0 for user authentication as it was our first time using it.
 
-### `npm run eject`
+## 📌 Accomplishments that we're proud of :
+Finally, we were able to build something that relieves stress out of developers and reminds them that it is equally important to spend time for themselves and have some fun!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
+## 📚 What we learned :
+- We learned using Kaboom js as this was our first attempt to build a game using it.
+- We learned a few basic things about React as we had no clue about it priorly.
+- We got to learn using Auth0 for user authentication.
+- We also got to learn the fact that "You need to spend some time having fun" as a developer.
+- We learned how rapid development tools can save a lot of your time instead of hard coding everything.
+## ⏭ What's next for WASD? :
+- User profiles and database where the users can check the high scores for the games they played.
+- We initially thought of building the project in such a way that the game displays resources for developers in different domains immediately after the game ends. So we will figure a way out to do this.
