@@ -54,6 +54,7 @@ function App() {
        
       <Game 
       link= "https://i.ibb.co/Z8xVQwc/Whats-App-Image-2022-12-18-at-13-33-25.jpg"
+      gamelink = "https://flappy-2.ashishmalla1.repl.co/"
       name= "Swimmy Blahaj"
       />
 
