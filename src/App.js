@@ -1,7 +1,12 @@
 import Game from "./components/Game";
 import "./App.css";
+import { useAuth0 } from '@auth0/auth0-react';
+import LoginButton from "./components/Login";
+import LogoutButton from "./components/Logout";
+import Profile from "./components/Profile";
 
 function App() {
+  const { isAuthenticated } = useAuth0();
   return (
     <div className="App">
      
@@ -18,11 +23,15 @@ function App() {
           <li className="nav-item">
             <a className="nav-link active" aria-current="page" href="#">Home</a>
            </li>
+           <li className="nav-item">
+            <a className="nav-link active" aria-current="page" href="https://github.com/Yasshu55/W-A-S-D">Github</a>
+           </li>
 
       </ul>
       <form className="d-flex" role="search">
-        <button className="btn btn-outline-success" type="submit">Sign In</button>
+      {isAuthenticated ? <LogoutButton /> : <LoginButton />}
       </form>
+    
     </div>
   </div>
 </nav>
@@ -34,19 +43,20 @@ function App() {
       <Game
        link = "https://i.ibb.co/xGbkmWZ/Whats-App-Image-2022-12-18-at-13-41-28.jpg"
        gamelink = "https://hackathon-game.ashishmalla1.repl.co/"
-       name= "Coffee with Mr.Blahaj"
+       name= "Coffee with Blahaj"
        />
 
       <Game 
       link= "https://i.ibb.co/mF6Rkr2/image.png"
       gamelink = "https://heavyworthydeletion--yashwanthsai9.repl.co/"
-      name= "Swimmy blahaj"
+      name= "Blahaj in the Maze"
        />
        
       <Game 
       link= "https://i.ibb.co/Z8xVQwc/Whats-App-Image-2022-12-18-at-13-33-25.jpg"
-      name= "Swimmy blahaj"
+      name= "Swimmy Blahaj"
       />
+
        
       </div>
       
